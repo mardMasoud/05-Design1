@@ -1,106 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="acc.css"
-    />
-
-    <title>acc</title>
-  </head>
-  <body>
-    <div class="accordion-box">
-      <div class="accordion-item accordion--item-1">
-        <div class="title-box title-box-1">
-          <div>
-            <span class="number">01</span>
-            <span class="title">orem ipsum dolor sit amet consectetur</span>
-          </div>
-
-          <label for="check-1"> <span>&#8896;</span></label>
-        </div>
-        <input
-          type="checkbox"
-          name="check-1"
-          class="check-1"
-          id="check-1"
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
         />
-        <div class="info-box info-box-1">
-          <p class="info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            omnis, voluptatem cumque commodi ducimus dolores praesentium
-            consequatur! Reprehenderit voluptatum cumque, r
-          </p>
-          <ul>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-          </ul>
+        <link rel="stylesheet" href="acc.css" />
+
+        <title>acc</title>
+    </head>
+    <body>
+        <div class="accordion">
+            <input type="checkbox" name="check-1" class="check-box check-box--1" id="check-1" />
+            <div class="accordion__item accordion__item--1 col--3">
+              
+                <span class="accordion__number">01</span>
+                <span class="accordion__title">orem ipsum dolor sit amet consectetur</span>
+
+               
+                <label for="check-1">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                        />
+                    </svg>
+                </label>
+
+                <div class="accordion__info-box accordion__info-box--1">
+                    <p class="accordion__info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor omnis,
+                        voluptatem cumque commodi ducimus dolores praesentium consequatur!
+                        Reprehenderit voluptatum cumque, r
+                    </p>
+                    <ul class="accordion__list">
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- <div class="accordion__item accordion__item--2">
+                <input type="checkbox" name="check-2" class="check-box check-box--2" id="check-2" />
+
+                <div class="accordion__title-box">
+                    <div>
+                        <span class="accordion__number">02</span>
+                        <span class="accordion__title">orem ipsum dolor sit amet consectetur</span>
+                    </div>
+
+                    <label for="check-2"> 
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                        />
+                    </svg>
+                       
+                </div>
+
+                <div class="accordion__info-box accordion__info-box--2">
+                    <p class="accordion__info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor omnis,
+                        voluptatem cumque commodi ducimus dolores praesentium consequatur!
+                        Reprehenderit voluptatum cumque, r
+                    </p>
+                    <ul class="accordion__list">
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="accordion__item accordion__item--3">
+                <input type="checkbox" name="check-1" class="check-box check-box--3" id="check-3" />
+                <div class="accordion__title-box">
+                    <div>
+                        <span class="accordion__number">03</span>
+                        <span class="accordion__title">orem ipsum dolor sit amet consectetur</span>
+                    </div>
+
+                    <label for="check-3">
+                        
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="icon"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                        />
+                    </svg></label>
+                </div>
+
+                <div class="accordion__info-box accordion__info-box--3">
+                    <p class="accordion__info">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor omnis,
+                        voluptatem cumque commodi ducimus dolores praesentium consequatur!
+                        Reprehenderit voluptatum cumque, r
+                    </p>
+                    <ul class="accordion__list">
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                        <li class="accordion__list-item">
+                            Lorem ipsum dolor sit amet consectetur.
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
         </div>
-      </div>
-      <div class="accordion-item accordion-item-2">
-        <div class="title-box title-box-1">
-          <div>
-            <span class="number">02</span>
-            <span class="title">orem ipsum dolor sit amet consectetur</span>
-          </div>
-          <label for="check-2"> <span>&#8896;</span></label>
-        </div>
-        <input
-          type="checkbox"
-          name="check"
-          class="check-2"
-          id="check-2"
-        />
-        <div class="info-box info-box-2">
-          <p class="info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            omnis, voluptatem cumque commodi ducimus dolores praesentium
-            consequatur! Reprehenderit voluptatum cumqup
-          </p>
-          <ul>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="accordion-item accordion-item-3">
-        <div class="title-box title-box-1">
-          <div>
-            <span class="number">03</span>
-            <span class="title">orem ipsum dolor sit amet consectetur</span>
-          </div>
-          <span>&#8896;</span>
-        </div>
-        <div class="info-box info-box-3">
-          <p class="info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            omnis, voluptatem cumque commodi ducimus dolores praesentium
-            consequatur! Reprehenderit voluptatum cumquep!
-          </p>
-          <ul>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
